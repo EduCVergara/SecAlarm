@@ -14,12 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/lightBlue"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+        android:minHeight="70dp"
+        android:theme="@style/Theme.MyApplication"
         app:title="Ajustes Accesibilidad"
-        app:titleMarginStart="100dp"
-        app:titleTextAppearance="@style/TextAppearance.AppCompat.Title"
-        app:titleTextColor="@color/white" />
+        app:titleMarginStart="65dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:titleTextColor="@color/white"/>
+
 
     <TextView
         android:layout_width="match_parent"
@@ -89,7 +90,7 @@
         style="@android:style/Widget.Material.Light.Spinner.Underlined"
         android:layout_width="350dp"
         android:layout_height="89dp"
-        android:outlineProvider="none"
+        android:entries="@array/sensibilidad_opciones"
         android:spinnerMode="dropdown"
         android:translationX="30dp" />
 
